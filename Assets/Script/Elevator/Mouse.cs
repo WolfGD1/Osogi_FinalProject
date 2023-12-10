@@ -413,8 +413,8 @@ public class Mouse : MonoBehaviour
                     var MView = Memo.GetComponent<Memo>();
                     Fail = true;
                     MView.MemoView = false;
-                    t.text = "순서가 틀렸다 처음부터 다시 해야할것 같다.";
-                    End = 3;
+                    t.text = "이런건 안하는 것도 좋은 선택이지...";
+                    End = 1;
                     StartCoroutine("FadeIn");
                 }
             }
