@@ -21,7 +21,7 @@ public class End1 : MonoBehaviour {
         }
         if (Input.GetMouseButtonUp(0))
         {
-            SceneManager.LoadScene("Game1");
+            SceneManager.LoadScene("Start0");
         }
     }
 }

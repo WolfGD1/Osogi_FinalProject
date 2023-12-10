@@ -18,9 +18,11 @@ public class End0 : MonoBehaviour {
         {
             Application.Quit();
         }
-        if (Input.GetMouseButtonUp(0))
-        {
-            SceneManager.LoadScene("Game0");
-        }
+    }
+    public void startClick(){
+        SceneManager.LoadScene("Game0");
+    }
+    public void helpClick(){
+        SceneManager.LoadScene("Start1");
     }
 }
